@@ -13,9 +13,9 @@ const transporter = nodemailer.createTransport({
 
 transporter.sendMail({
   from: process.env.email,
-  to: "chauraj345r@gmail.com", // list of receivers
+  to: "clientemail@gmail.com", // list of receivers
   subject: "Hello ✔", // Subject line
-  text: "naku na", // plain text body
+  text: "message", // plain text body
   html: "<b>Hello world?</b>" // html body
 }).then(() => {
   console.log("Message sent");
